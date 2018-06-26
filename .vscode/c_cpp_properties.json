@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "QT Win",
+            "defines": [
+                "_DEBUG"
+            ],
+            "compilerPath": "C:/QT/5.8/msvc2015_64/bin/qmake.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/QT/5.8/msvc2015_64/include/*",
+                    "C:/QT/5.8/msvc2015_64/include/QtWidgets/*",
+                    "C:/QT/5.8/msvc2015_64/include/QtWidgets/private/*",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt/*",
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "includePath": [
+                "C:/QT/5.8/msvc2015_64/include/*",
+                "C:/QT/5.8/msvc2015_64/include/QtCore/*",
+                "C:/QT/5.8/msvc2015_64/include/QtWidgets/*",
+                "C:/QT/5.8/msvc2015_64/include/QtWidgets/private/*",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt/*",
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*",
+                "${workspaceFolder}/**"
+            ]
+        },
+        {
+            "name": "QT Mac",
+            "defines": [
+                "_DEBUG"
+            ]
+        }
+    ],
+    "version": 4
+}
