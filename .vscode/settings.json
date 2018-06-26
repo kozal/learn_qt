@@ -4,9 +4,10 @@
         "qapplication": "cpp",
         "qdialog": "cpp",
         "cstddef": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "qdebug": "cpp"
     },
     "files.exclude": {
-        "build*/": true
+        "build-*/": true
     }
 }

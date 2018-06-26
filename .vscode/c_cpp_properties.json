@@ -34,6 +34,27 @@
             "name": "QT Mac",
             "defines": [
                 "_DEBUG"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks"
+            ],
+            "includePath": [
+                "/usr/local/Cellar/qt/5.10.1/include/*",
+                "/usr/local/Cellar/qt/5.10.1/include/QtCore/*",
+                "/usr/local/Cellar/qt/5.10.1/include/QtWidgets/*",
+                "/usr/local/Cellar/qt/5.10.1/include/QtWidgets/private/*",
+                "${workspaceFolder}/**"
             ]
         }
     ],
