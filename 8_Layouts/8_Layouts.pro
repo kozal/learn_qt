@@ -1,6 +1,3 @@
-QT       += core gui widgets
+QT      = widgets
 
-
-TEMPLATE = app
-TARGET = 8_Layouts
-SOURCES += main.cpp
+SOURCES = main.cpp

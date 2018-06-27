@@ -1,6 +1,3 @@
-QT       += core gui widgets
+QT      = widgets
 
-
-TEMPLATE = app
-TARGET = 7_minimal
-SOURCES += main.cpp
+SOURCES = main.cpp
