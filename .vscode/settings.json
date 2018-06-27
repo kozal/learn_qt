@@ -5,7 +5,12 @@
         "qdialog": "cpp",
         "cstddef": "cpp",
         "type_traits": "cpp",
-        "qdebug": "cpp"
+        "qdebug": "cpp",
+        "qtwidgets": "cpp",
+        "qtcore": "cpp",
+        "qtwidgetsdepends": "cpp",
+        "qhboxlayout": "cpp",
+        "qpushbutton": "cpp"
     },
     "files.exclude": {
         "build-*/": true
