@@ -10,7 +10,8 @@
         "qtcore": "cpp",
         "qtwidgetsdepends": "cpp",
         "qhboxlayout": "cpp",
-        "qpushbutton": "cpp"
+        "qpushbutton": "cpp",
+        "qcoreapplication": "cpp"
     },
     "files.exclude": {
         "build-*/": true
