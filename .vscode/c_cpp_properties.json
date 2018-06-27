@@ -1,6 +1,5 @@
 {
-    "configurations": [
-        {
+    "configurations": [{
             "name": "QT Win",
             "defines": [
                 "_DEBUG"
@@ -21,7 +20,7 @@
                 "databaseFilename": ""
             },
             "includePath": [
-                "C:/QT/5.8/msvc2015_64/include/*",
+                "C:/QT/5.8/msvc2015_64/include/",
                 "C:/QT/5.8/msvc2015_64/include/QtCore/*",
                 "C:/QT/5.8/msvc2015_64/include/QtWidgets/*",
                 "C:/QT/5.8/msvc2015_64/include/QtWidgets/private/*",
