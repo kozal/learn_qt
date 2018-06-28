@@ -13,8 +13,35 @@ Connect (sender, signal, receiver, slot)
                                             ui->progressBar, SLOT(setValue(int)));
 ```
 
+### Widgets
+When we check `dialog.h` we only see the a pointer to `ui` but not the other elements of the form/window/dialog
+
+```cpp
+    Ui::Dialog *ui;
+```
+
+Other than checking ui file `dialog.ui` in QT Creator Design, we can inspect ui file as an xml document.
+
+```html
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <widget class="QLabel" name="label">
+   <property name="text">
+    <string>Hello world</string>
+   </property>
+  </widget>
+ </widget>
+</ui>
+```
+
+So we can change these attributes via cpp file
+```cpp
+    ui->label->setText("<b>Hello everyone</b>");
+```
+
 ### Resource File
-is a collection of data that can be put in executable when it is compiled and can be accesed at runtime
+is a collection of data that can be put in executable when it is compiled and can be accessed at runtime
 
 `Add New` -> `Qt` -> `Qt Resource File`
 
