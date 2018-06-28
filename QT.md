@@ -40,6 +40,25 @@ So we can change these attributes via cpp file
     ui->label->setText("<b>Hello everyone</b>");
 ```
 
+#### Add signal slot
+To add function to `dialog.cpp`
+
+Right click widget -> Go to slot -> Select signal (clicked)
+
+Here, the signal is clicking button, slot is `on_pushButton_clicked()` function.
+Function will be called when `clicked` signal is emitted.
+
+```cpp
+// dialog.c
+void Dialog::on_pushButton_clicked()
+{
+    
+}
+// dialog.h
+private slots:
+    void on_pushButton_clicked();
+
+```
 ### Resource File
 is a collection of data that can be put in executable when it is compiled and can be accessed at runtime
 
