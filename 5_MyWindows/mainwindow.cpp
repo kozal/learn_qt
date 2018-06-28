@@ -24,7 +24,7 @@ void MainWindow::on_actionNew_Window_triggered()
 //    mDialog.setModal(true);
 //    mDialog.exec();
 
-    /* if we use show, the dialog diseppears immediately after showing
+    /* if we use show, the dialog disappears immediately after showing
     * since function ends and returns*/
   //  mDialog.show();
 
