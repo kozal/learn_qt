@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clean build dirs",
+            "type": "shell",
+            "command": "rm -rf build-*",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo ${workspaceFolderBasename}",
+        }
+    ]
+}
+// ${workspaceFolder} - the path of the folder opened in VS Code : /Users/omer/workspace/qt_proj
+// ${workspaceRootFolderName} = workspaceFolderBasename - the name of the folder opened in VS Code without any slashes (/) : qt_proj
+// ${file} - the current opened file : /Users/omer/workspace/qt_proj/17_QCheckBox/dialog.h
+// ${relativeFile} - the current opened file relative to workspaceRoot : 17_QCheckBox/dialog.h
+// ${fileBasename} - the current opened file's basename : dialog.h
+// ${fileBasenameNoExtension} - the current opened file's basename with no file extension : dialog
+// ${fileDirname} - the current opened file's dirname : /Users/omer/workspace/qt_proj/17_QCheckBox
+// ${fileExtname} - the current opened file's extension : .h
+// ${cwd} - the task runner's current working directory on startup : /Users/omer/workspace/qt_proj
+// ${lineNumber} - the current selected line number in the active file
+// ${selectedText} - the current selected text in the active file
